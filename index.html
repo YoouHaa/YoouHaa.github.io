@@ -579,30 +579,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-7 col-md-push-1">
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									<form id="gform" method="POST">
-										<div class="form-group">
-											<input type="text" name="name" class="form-control" placeholder="성함">
-										</div>
-										<div class="form-group">
-											<input type="text" name="email" class="form-control" placeholder="회신 받을 E-Mail">
-										</div>
-										<div class="form-group">
-											<input type="text" name="subject" class="form-control" placeholder="제목">
-										</div>
-										<div class="form-group">
-											<textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="내용"></textarea>
-										</div>
-										<div class="form-group">
-											<input type="button" onclick="sendMail()" class="btn btn-primary btn-send-message" value="메일 보내기">
-										</div>
-									</form>
-								</div>
-								
-							</div>
-						</div>
+						
 					</div>
 				</div>
 			</section>
@@ -634,7 +611,7 @@
 			var sendData = $('#gform').serialize();
 			return sendData;
 		}
-		function sendMail(){
+		/*function sendMail(){
 			$.ajax({
 				type : "POST",
 				url : "https://script.google.com/macros/s/AKfycbyLffzq7rkvbaJvbhLj-FM9F6g2Toibm36tmXi8cw/exec",
@@ -647,7 +624,7 @@
 					console.log("error")
 				}
 			});
-		}
+		}*/
 		//https://kutar37.tistory.com/entry/%EC%A0%95%EC%A0%81-HTML-form%ED%83%9C%EA%B7%B8%EC%97%90%EC%84%9C-%EB%A9%94%EC%9D%BC%EB%B3%B4%EB%82%B4%EA%B8%B0-Google-Apps-Mail
 	</script>
 
