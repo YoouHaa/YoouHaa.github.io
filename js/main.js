@@ -305,6 +305,5 @@
 		stickyFunction();
 		owlCrouselFeatureSlide();
 	});
-
-
+	
 }());
